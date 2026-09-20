@@ -49,3 +49,13 @@ nav a:hover {
 	background-color: DarkSalmon;
 	color: white;
 }
+
+
+.grid-home{
+	display: grid;
+}
+
+.grid-home img{
+	width: 100%;
+	height: 100vh;
+}
