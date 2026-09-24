@@ -139,3 +139,172 @@ nav a:hover {
     background-color: DarkSalmon;
 	color: white;
 }
+
+
+
+.grid-contact {
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+
+.grid-item {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.grid-item h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.grid-form label {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+}
+
+.grid-form input, .grid-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.grid-form textarea {
+    resize: vertical;
+}
+
+.grid-form button {
+    width: 25%;
+    padding: 12px;
+    background-color: DarkSalmon;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+	transition: 0.3s;
+}
+
+.grid-form input:focus, textarea:focus{
+	border-color: DarkSalmon;
+	outline: none;
+	box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.grid-form button:hover {
+    background-color: Crimson;
+}
+
+footer {
+    background-color: DarkSalmon;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+
+.scroll{
+	background-color: Crimson;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 0;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header img {
+        width: 60px; 
+    }
+
+    .header p {
+        font-size: 20px; 
+    }
+
+    .about-item {
+        width: 100%; 
+    }
+
+    .service-card {
+        width: 90%; 
+        margin: 10px auto;
+    }
+
+    .grid-item {
+        width: 90%; 
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 14px; 
+    }
+
+    .service-card {
+        padding: 10px;
+    }
+
+    .contact-title, .service-title {
+        font-size: 24px; 
+    }
+
+    footer {
+        font-size: 12px; 
+    }
+}
